@@ -50,3 +50,8 @@ $tempDir->remove();
 
 You don't have to call `unset()` or `->remove()`, the directory and all 
 subdirectories will be removed automatically when the script ends.
+
+**WARNING**: Any and all files or directories that you create inside the
+the temporary directory or anything you put inside a temporary file will be
+completely removed when the script ends. This is what the library is for,
+so don't put anything important in there.
