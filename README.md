@@ -41,7 +41,7 @@ $tempPath = $tempDir->getDirectory();
 // Let's fill the directory with a file.
 file_put_contents($tempPath . '/somefile.txt, 'This file is inside a temporary dir');
 
-// When we remove all references to the object, the directory and 
+// When we remove all references to the object, the directory and
 // all subdirectories are removed.
 unset($tempDir);
 // Or
