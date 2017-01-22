@@ -1,0 +1,22 @@
+{
+    "name": "emmetog/temp-file",
+    "description": "Allows easy handling of temporary files which are removed automatically",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emmet O'Grady",
+            "email": "emmet789@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Emmetog\\TempFile": "src/"
+        }
+    }
+}
