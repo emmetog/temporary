@@ -1,12 +1,12 @@
 <?php
 
-namespace Emmetog\TempFile;
+namespace Emmetog\Temporary;
 
-class TemporaryTest extends \PHPUnit_Framework_TestCase
+class FileTest extends \PHPUnit_Framework_TestCase
 {
     public function testTemporaryFileExistsWhenCreated()
     {
-        $tempFile = new Temporary();
+        $tempFile = new File();
 
         $filename = $tempFile->getFilename();
 
@@ -15,7 +15,7 @@ class TemporaryTest extends \PHPUnit_Framework_TestCase
 
     public function testTemporaryFileIsRemovedWhenRemoveIsCalled()
     {
-        $tempFile = new Temporary();
+        $tempFile = new File();
 
         $filename = $tempFile->getFilename();
 
@@ -27,7 +27,7 @@ class TemporaryTest extends \PHPUnit_Framework_TestCase
 
     public function testTemporaryFileIsRemovedWhenObjectIsDestroyed()
     {
-        $tempFile = new Temporary();
+        $tempFile = new File();
 
         $filename = $tempFile->getFilename();
 

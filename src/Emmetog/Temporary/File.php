@@ -1,8 +1,8 @@
 <?php
 
-namespace Emmetog\TempFile;
+namespace Emmetog\Temporary;
 
-class Temporary
+class File
 {
     /**
      * @var string

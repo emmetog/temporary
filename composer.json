@@ -1,6 +1,6 @@
 {
-    "name": "emmetog/temp-file",
-    "description": "Allows easy handling of temporary files which are removed automatically",
+    "name": "emmetog/temporary",
+    "description": "Allows easy handling of temporary files and directories which are removed automatically",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Emmetog\\TempFile": "src/"
+            "Emmetog\\Temporary": "src/"
         }
     }
 }
