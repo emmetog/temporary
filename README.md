@@ -1,6 +1,12 @@
 # Temporary Files and Directories
 Allows easy handling of temporary files and directories which are removed automatically
 
+# Installation
+
+```
+composer require emmetog/temporary
+```
+
 # Usage
 
 ## Temporary Files
